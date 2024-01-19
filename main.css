@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #0D1321;
+}
+
+.header__logo {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo img {
+    width: 600px;
+}
+
+
+.card-num {
+    position: absolute;
+    background-color: orange;
+    border-radius: 0px 10px 0 10px;
+    color: #FFF;
+    padding: 0 10px;
+    top: 0;
+    right: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.pokemon-card {
+    position: relative;
+    background-color: #748CAB;
+    width: 250px;
+    height: 340px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.img-card {
+    width: 100%;
+    padding: 5px;
+}
+
+.poke-name {
+    color: #FFF;
+    background: #3E5C76;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.poke-info {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #F0EBD8;
+    border-radius: 0 0 10px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.img-card img {
+    width: 100%;
+}
